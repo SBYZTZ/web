@@ -1,0 +1,62 @@
+body{
+	margin:0cm 4cm 0cm;
+	font-family:'Comic Sans MS', cursive, sans-serif;
+}
+a:link{
+	text-decoration:none;
+}
+footer{
+	background-color:black;
+	color:white;
+}
+/*    header   */
+div#header{
+	padding: 0;
+	border: 0;
+	background:	#808080;
+
+
+}
+ul#menu	{
+		color:black;
+	
+		}
+.li{
+	color:white;
+	font-family: normal;
+}
+
+.nav{
+	border:3px groove;
+	margin:0.5cm 0 0;
+}
+h1{
+	font: bold 30px;
+}
+h2{
+	font-size : 15px;
+}
+ul#menu2{
+	list-style-type:none;
+}
+.img{
+	border:3px groove ;
+}
+ol#menu3{
+	font-family:'Times New Roman', Times, serif;
+}
+tr#tr1,tr#tr3{
+	background-color:grey;
+}
+
+nav#nav2
+{
+		margin:0 30% 0;
+}
+span.in{
+	color:grey;
+}
+button#sub{
+	width:1000px;
+	height:30px;
+}
