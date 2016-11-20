@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+    text-decoration:none;	
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#E8E8E8;
+}
+/**********header************/
+header{
+	height:100px;
+	background-color:#989898;
+}
+header ul{
+    position:absolute;
+	top:30px;
+	right:20px;
+}
+header ul li {
+    text-align: center;
+
+	width:60px;
+    display:block;
+    float:left;
+    padding:20px 10px;
+}
+header ul li a{
+    color:white;
+    font-size:20px;
+}
+header ul li:hover{
+	border-bottom: 1px solid white;
+    background: #474747;
+	border-radius: 3px;
+
+}
+/******* mian ***********/
+article,aside{
+	display:block;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	box-shadow:1px 1px 3px 1px #848484;
+}
+h1{
+	font-size:50px;
+}
+h2{
+	font-size:20px;
+	color: gray;
+	padding-left:20px;
+}
+p#art{
+	padding-left:50px;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+}
+article a:hover{
+    color:red;
+}
+article img{
+	width:110px;
+	height:110px;
+	box-shadow:1px 1px 3px 1px #848484;	
+}
+article ul li{
+    list-style-type:none;
+}
+article table{
+	width:100%;
+}
+tr#tr1{
+	background-color:black;
+	color:white
+}
+tr#tr3{
+	background-color:gray;
+}
+aside form div{
+    font-size: 14px;
+	margin:15px 0;
+}
+aside span,textarea{
+	color:#aaa;
+}
+
+aside form div .tips{
+    float:left;
+    text-align:right;
+    width:35%;
+    padding-right:15px;
+}
+aside form #submit{
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+aside form #submit:hover{
+    background: #0063dc;
+}
+/**********footer*************/
+footer{
+    width:100%;
+    height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
