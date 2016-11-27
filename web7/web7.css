@@ -1,0 +1,295 @@
+*{
+	margin:0 40px 0;
+
+	width:1280px;
+	padding:0;
+	font-family:SimHei;
+}
+body{
+	background-color:gray;
+}
+header{
+	height:56px;
+	background-color:white;
+
+}
+header div{
+	height:32px;
+	width:65px;
+	color:#d45d5c;
+	float:right;
+	margin-left:0px;
+	padding-top:20px;
+	text-align:center;
+}
+header div:hover{
+	border-bottom:3px #d45d5c solid;
+}
+/*****/
+#main1{
+	position:relative;
+	height:940px;
+}
+#img1{
+	height:690px;
+	margin-left:0px;
+	float:left;
+}
+#text1{
+	color:white;
+	font-size:42px;
+	position:absolute;
+	top:230px;
+	left:130px;
+}
+#text1 p#text1_2{
+	font-size:20px;
+}
+#button1{
+	width:330px;
+	height:60px;
+	background-color:#d45d5c;
+	font-size:22px;
+	border-width:0px;
+	color:white;
+	margin-top:50px;
+}
+#main1 div{
+	height:250px;
+	background-color:#fff;
+	position:absolute;
+	bottom:0px;
+	margin:0px;
+}
+/***/
+div#main2{
+	height:360px;
+	background-color:#E8E8E8;
+}
+div#main3{
+	height:340px;
+	background-color:#700000;
+}
+/**************/
+
+#main3 select,input#button2{
+	width:230px;
+	height:35px;
+	margin-right:30px;
+}
+#select1{
+	margin-top:170px;
+	margin-left:125px;
+}
+#select2,#select3{
+	margin-left:0px;
+}
+#button2{
+	margin-left:0px;
+	background-color:#d45d5c;
+	font-size:22px;
+	border-width:0px;
+	color:white;	
+}
+/***************/
+#main4{
+	height:600px;
+	background-color:#E8E8E8;	
+}
+#main5{
+	height:560px;
+	background-color:black;
+}
+#main6{
+	position:relative;
+}
+#main6_1{
+	width:424px;
+	height:525px;
+	background-color:#d45d5c;
+	margin:0px;
+}
+#main6_1 div{
+	position:absolute;
+	margin-top:175px;
+	margin-left:135px;
+}
+#main6_1 div p{
+	width:163px;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	margin:0px;
+
+}
+#main6_1 #button3{
+	width:163px;
+	height:45px;
+	background-color:#d45d5c;
+	font-size:22px;
+	border-width:1px;
+	border-color:white;
+	color:white;
+	position:absolute;
+	top:275px;
+	left:95px;
+}
+#main6_2{
+	width:432px;
+	height:525px;
+	background-color:#fff;
+	margin:0px;
+	position:absolute;
+	left:424px;
+	top:0px;	
+}
+#main6_3{
+	width:424px;
+	height:525px;
+	background-color:#E8E8E8;
+	margin:0px;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+/***************/
+#main7{
+	height:300px;
+	background-color:#fff;
+}
+#main7 p{
+	text-align:center;
+	font-size:24px;
+	color:gray;
+}
+#main7 p#main7_1{
+	font-weight:bold;
+	font-size:36px;
+	color:black;
+	padding-top:120px;
+
+}
+/********/
+#main8{
+	height:450px;
+	background-color:#fff;
+
+	position:relative;
+}
+#main8 div h1{
+	font-size:24px;
+	font-weight:bold;
+}
+#main8 div{
+	width:286px;
+	margin-left:135px;
+}
+#main8 div a{
+	text-decoration:none;
+	color:gray;
+	margin-left:286px;
+}
+#main8 div a:hover{
+	color:#d45d5c;
+}
+/********************************/
+aside{
+	width:775px;
+	height:450px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	font-size:20px;
+}
+aside div{
+	width:300px;
+	height:40px;
+	background-color:#E8E8E8;
+	margin-bottom:20px;
+}
+aside div#input1{
+	float:right;
+}
+aside div#input3{
+	float:right;
+}
+aside div#input5{
+	height:120px;
+	width:600px;
+}
+aside button#button4{
+	height:40px;
+	width:600px;
+	background-color:#E8E8E8;
+	border:0px;
+	margin-left:135px;	
+}
+button#button4:hover{
+	background-color:#d45d5c;
+	color:white;
+}
+aside div#input5 span{
+	margin:0px;
+	display:block;
+	
+}
+aside div#input5 textarea{
+	width:600px;
+	height:100px;
+	margin:0px;
+	background-color:#E8E8E8;
+	border:0px;
+}
+
+/**************************/
+#main9{
+	height:360px;
+	background-color:#282828;
+	color:#fff;
+	text-align:center;
+	padding-top:120px;
+}
+#main9 form input{
+	width:430px;
+	height:40px;
+	margin-right:0px;
+}
+#main9 form button{
+	width:75px;
+	height:40px;
+	margin-left:0px;
+	background-color:#787878;
+	border:0px;
+	color:#fff;
+}
+
+#main9_3_1,#main9_3_2,#main9_3_3,#main9_3_4{
+	width:45px;
+	height:40px;
+	background-color:#E8E8E8;
+	display:inline-block;
+	margin:0px;
+	margin-top:20px;
+}
+#main9_3_1:hover{
+	background-color:#d45d5c;
+}
+#main9_3_2:hover{
+	background-color:#d45d5c;	
+}
+#main9_3_3:hover{
+	background-color:#d45d5c;	
+}
+#main9_3_4:hover{
+	background-color:#d45d5c;	
+}
+/*******************/
+footer{
+	height:60px;
+	background-color:#484848;
+	text-align:center;
+}
+footer p{
+	padding-top:25px;
+	color:#fff;
+}
